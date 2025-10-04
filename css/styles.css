@@ -11245,3 +11245,7 @@ body {
 .footer {
   padding: 5rem 0;
 }
+
+.comment-referenced {
+    background-color: #e4c662;
+}

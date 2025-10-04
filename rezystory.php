@@ -9,6 +9,6 @@
         </div>
     </header>
     <section class="projects-section bg-light" id="projects">
-
+        <?php include 'partials/comments_section.php'; ?>
     </section>
 <?php include 'partials/footer.php'; ?>
