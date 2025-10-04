@@ -1,6 +1,6 @@
 <?php include 'partials/header.php'; ?>
     <!-- Masthead-->
-    <header class="masthead">
+    <header class="masthead main_masthead">
         <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
             <div class="d-flex justify-content-center">
                 <div class="text-center">
@@ -42,7 +42,7 @@
                             <p class="text-black-50 mb-0">Magazyn energii elektrycznej. Dowiesz się o pojemności, typach i użyciu w filtrach oraz układach czasowych.</p>
                         </div>
                     </div>    
-                <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/condensators.jpg" alt="..." /></div>
+                <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/capacitors.jpg" alt="..." /></div>
             </div>
             <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
                 <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/inductors.jpg"
