@@ -1,4 +1,5 @@
 <div class="container px-4 px-lg-5">
+    <h2>Komentarze</h2>
     <?php include 'partials/comments_form.php'; ?>
     <div class="row gx-0 mb-4 align-items-left">
 
