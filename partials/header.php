@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 
 <head>
     <meta charset="UTF-8">
@@ -10,12 +10,17 @@
     <title>Świat elektroniki</title>
     <link rel="icon" type="image/x-icon" href="assets/favicon.png" />
     <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
+    <!-- Google Fonts: preconnect + optimized css2 with display=swap -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
-        rel="stylesheet" />
+        href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&family=Varela+Round&display=swap"
+        rel="stylesheet">
+
+    <!-- Main stylesheet (Bootstrap + theme). Load site overrides AFTER it so our font rules apply -->
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/style.css" />
 </head>
 
-<body id="page-top">
+<body>
     <?php include 'partials/nav.php'; ?>
