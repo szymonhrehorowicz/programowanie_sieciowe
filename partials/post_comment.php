@@ -1,9 +1,10 @@
 <?php
 $post_name = pathinfo($_SERVER['PHP_SELF'], PATHINFO_FILENAME);
 
+// DB - dane dostępowe
 $servername = "localhost";
-$username = "root";     // default in XAMPP
-$password = "";         // default is empty
+$username = "root";
+$password = "";
 $dbname = "swiat_elektroniki";
 
 $conn = new mysqli($servername, $username, $password, $dbname);

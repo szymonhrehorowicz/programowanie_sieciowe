@@ -204,7 +204,81 @@ section ul {
 .entry table td { width: 70%; }
 
 /* Formularz */
+form {
+    margin: 20px 0;
+}
+form input {
+    position: relative;
+    width: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 25px;
+    padding: 0 20px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ea1538;
+    display: block;
+    font-size: 14px;
+}
 
+form input.hidden {
+    width: 0;
+    height: 0;
+    padding: 0;
+    margin: 0;
+}
+
+form textarea {
+    position: relative;
+    width: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 150px;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ea1538;
+    display: block;
+    font-size: 14px;
+}
+
+/* Komentarze */
+.comment {
+    margin: 5px 0;
+    border: 2px solid #ea1538;
+    border-radius: 15px;
+}
+
+.comment h6 {
+    font-size: 16px;
+}
+
+.comment p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.comment button {
+    background: transparent;
+    color: black;
+    font-weight: 400;
+    transition: 1.2s;
+}
+
+.comment button:hover,
+.comment_referenced button{
+    background: #ea1538;
+    color: white;
+}
+
+.left_shift {
+    margin-left: 20px;
+}
+
+.comment.left_shift {
+    border-right: 0;
+    border-bottom: 0;
+}
 
 /* Stopka */
 footer {
