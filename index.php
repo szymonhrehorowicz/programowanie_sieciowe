@@ -1,20 +1,17 @@
 <?php include 'partials/header.php'; ?>
-<!-- Masthead -->
 <header class="masthead main_masthead">
     <div class="masthead_center">
         <h1>Witaj w świecie elektroniki</h1>
         <button><a href="#about">Rozpocznij</a></button>
     </div>
 </header>
-<!-- About -->
 <section class="tight" id="about">
-    <h2 class="text-white-50 mx-auto mt-2 mb-5">Ta strona to krótki przewodnik po podstawowych elementach
+    <h2>Ta strona to krótki przewodnik po podstawowych elementach
         elektronicznych i
         ich zastosowaniach. Znajdziesz tu przystępne wyjaśnienia oraz odnośniki do podstron poświęconych
         rezystorom,
         kondensatorom, dławikom, diodom i tranzystorom.</h2>
 </section>
-<!-- Projects-->
 <section class="tight flex">
     <div class="row">
         <img src="assets/img/resistors.jpg" alt="..." />

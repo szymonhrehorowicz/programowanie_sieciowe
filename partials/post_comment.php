@@ -18,10 +18,6 @@ if ($conn->connect_error) {
     $post = $_POST["post"];
     $date = date('Y-m-d H:i:s');
 
-    if ($author == "") {
-        $author = "NULL";
-    }
-
     if ($reference == "") {
         $reference = "NULL";
     }
