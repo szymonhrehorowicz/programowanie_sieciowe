@@ -64,7 +64,7 @@ if (!$conn->connect_error) {
             }
         }
     }
-}
 
-render_comments($tree, 0);
+    render_comments($tree, 0);
+}
 ?>
